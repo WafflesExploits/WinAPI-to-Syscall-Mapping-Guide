@@ -8,7 +8,7 @@ In addition to basic mappings, the repository includes:
 
 ## WinAPIs list
 
-**ReadProcessMemory -> NtReadVirtualMemory**
-**OpenProcess -> NtOpenProcess**
-**DebugActiveProcess->NtDebugActiveProcess** // Same as CREATE PROCESS with DEBUG_ONLY_THIS_PROCESS 
-**DebugActiveProcessStop -> NtRemoveProcessDebug** 
+- **ReadProcessMemory -> NtReadVirtualMemory**
+- **OpenProcess -> NtOpenProcess**
+- **DebugActiveProcess->NtDebugActiveProcess** // Same as CREATE PROCESS with DEBUG_ONLY_THIS_PROCESS 
+- **DebugActiveProcessStop -> NtRemoveProcessDebug** 
