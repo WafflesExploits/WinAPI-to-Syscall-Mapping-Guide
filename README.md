@@ -6,3 +6,9 @@ In addition to basic mappings, the repository includes:
 - Code Examples demonstrating how to use the syscalls.
 - Malware Development Use Cases, highlighting scenarios where these syscalls could be leveraged.
 
+## WinAPIs list
+
+**ReadProcessMemory -> NtReadVirtualMemory**
+**OpenProcess -> NtOpenProcess**
+**DebugActiveProcess->NtDebugActiveProcess** // Same as CREATE PROCESS with DEBUG_ONLY_THIS_PROCESS 
+**DebugActiveProcessStop -> NtRemoveProcessDebug** 
